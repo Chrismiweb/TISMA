@@ -4,6 +4,7 @@ import AboutDesigner from './AboutDesigner'
 import AvailableProduct from './AvailableProduct'
 import Review from './Review'
 import Contact from './Contact'
+import Footer from '../LandingPage/Footer'
 
 const View = () => {
   return (
@@ -13,6 +14,7 @@ const View = () => {
         <AvailableProduct/>
         <Review/>
         <Contact/>
+        <Footer/>
     </div>
   )
 }
