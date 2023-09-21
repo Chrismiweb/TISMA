@@ -6,7 +6,7 @@ import View from './Components/View/View';
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
+      <Routes>  
         <Route path='/view' element={<View/>}/>
       </Routes>
     </BrowserRouter>
