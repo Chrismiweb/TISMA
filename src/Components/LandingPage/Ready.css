@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .read{
     background-color: #266696;
@@ -13,24 +13,24 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding: 50px 90px 50px 90px;
+    padding: 60px 50px 60px 50px;
     border: none;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .read h1{
-    font-size: 55px;
+    font-size: 30px;
     width: 60%;
 }
 .read p{
-    margin-top: -1%;
-    font-size: 23px;
-    width: 45%;
+    margin-top: 1%;
+    font-size: 12px;
+    width: 42%;
 }
 .read button{
     background-color: #000000;
     color: white;
-    padding: 20px 90px;
-    font-size: 30px;
+    padding: 10px 40px;
+    font-size: 15px;
     margin-top: 20px;
     border: none;
 }

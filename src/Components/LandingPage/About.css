@@ -5,21 +5,28 @@
     flex-direction: column;
     padding-bottom: 60px;
     padding-top: 50px;
+    gap: 30px;
 }
 .ti{
-    color: #266696;
-    font-size: 30px;
+    color: hsl(206, 60%, 37%);
+    font-size: 18px;
 }
 .des{
     color: white;
-    font-size: 33px;
-    width: 75%;
+    font-size: 18px;
+    width: 70%;
 }
 .ting{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin-left: 15%;
+    gap: 30px;
+}
+.grad0{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .grad{
     color: white;
@@ -27,10 +34,10 @@
     gap: 20px;
 }
 .grad h1{
-    font-size: 50px;
+    font-size: 25px;
 }
 .grad p{
-    font-size: 20px;
+    font-size: 12px;
     width: 65%;
 }
 .grad2{
@@ -39,10 +46,10 @@
     gap: 20px;
 }
 .grad2 h1{
-    font-size: 50px;
+    font-size: 25px;
 }
 .grad2 p{
-    font-size: 20px;
+    font-size: 12px;
     width: 50%;
 }
 .grad3{
@@ -51,10 +58,10 @@
     gap: 20px;
 }
 .grad3 h1{
-    font-size: 50px;
+    font-size: 25px;
 }
 .grad3 p{
-    font-size: 20px;
+    font-size: 12px;
     width: 50%;
 }
 .grad4{
@@ -63,10 +70,10 @@
     gap: 20px;
 }
 .grad4 h1{
-    font-size: 50px;
+    font-size: 25px;
 }
 .grad4 p{
-    font-size: 20px;
+    font-size: 12px;
     width: 52%;
 }
 
