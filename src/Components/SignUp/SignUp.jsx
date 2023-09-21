@@ -60,19 +60,10 @@ function Signup() {
             required
           />
         </div>
-        <div className="form-group">
-          <label htmlFor="Confirm Password"> Confirm Password</label>
-          <input
-            type="Confirm Passoword" placeholder='******************'
-            id="Confirm Password"
-            name="Confirm Password"
-            value={formData.password}
-            onChange={handleChange}
-            required
-          />
-        </div>
         <p>By clicking sign up means, you to our <a href="">terms of service</a></p>
+        <div className='nig'>
         <button type="submit">Sign Up</button>
+        </div>
       </form>
     </div>
   );

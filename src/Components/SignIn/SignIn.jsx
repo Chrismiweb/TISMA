@@ -1,57 +1,64 @@
-// src/components/SignInForm.js
-
+// src/App.js
 import React, { useState } from 'react';
+import './signin.css';
 
-function SignInForm() {
-  const [formData, setFormData] = useState({
-    email: '',
-    password: '',
-  });
+function Signin() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle sign-in submission (e.g., send data to a server)
-    console.log(formData);
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  };
+
+  const handleLogin = () => {
+    // Implement your authentication logic here
+    console.log('Email:', email);
+    console.log('Password:', password);
+  };
+
+  const handleForgotPassword = () => {
+    // Implement the logic to handle forgotten passwords
+    console.log('Forgot Password clicked');
   };
 
   return (
-    <div className="sign-in-form">
-      <h2>Sign In</h2>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label htmlFor="email">Email</label>
+    <div className="container">
+      <div className="login-form">
+        <div className='mon'>
+        <h2>Sign In</h2>
+        <p>Welcome back! Kindly login to your account</p>
+        </div>
+        <div className="input-group">
+          <label>Email:</label>
           <input
             type="email"
-            id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
+            placeholder="Enter your email"
+            value={email}
+            onChange={handleEmailChange}
           />
         </div>
-        <div className="form-group">
-          <label htmlFor="password">Password</label>
+        <div className="input-gr">
+          <label>Password:</label>
           <input
             type="password"
-            id="password"
-            name="password"
-            value={formData.password}
-            onChange={handleChange}
-            required
+            placeholder="Enter your password"
+            value={password}
+            onChange={handlePasswordChange}
           />
         </div>
-        <button type="submit">Sign In</button>
-      </form>
+          <div className='gin'>
+          <button onClick={handleLogin}>Login</button>
+        <p className="forgot-password" onClick={handleForgotPassword}>
+          <a href="#">Forgot Password?</a>
+        </p>
+            </div>   
+       </div>
     </div>
   );
 }
 
-export default SignInForm;
+export default Signin;

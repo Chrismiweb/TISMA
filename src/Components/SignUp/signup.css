@@ -4,10 +4,21 @@
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 3px, solid #ccc;
   border-radius: 5px;
-}
+  margin-top: 10%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgb(252, 249, 249);
 
+}
+.registration-form p{
+  padding-bottom: 20px;
+  font-size: 13px;
+  padding-top: 10px;
+}
+.registration-form h2{
+  color:#266696 ;
+}
 
 .form-group {
   margin-bottom: 15px;
@@ -16,26 +27,31 @@
 .form-group label {
   display: block;
   margin-bottom: 5px;
+  color: #266696;
+  font-weight: 500;
 }
 
 .form-group input {
   width: 90%;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 5px;
 }
-
-.form-group button {
+.nig button {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #266696;
   color: #fff;
   border: none;
   border-radius: 3px;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
-.form-group button:hover {
-  background-color: #0056b3;
+.group input{
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }

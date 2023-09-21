@@ -1,45 +1,81 @@
-/* src/components/SignInForm.css */
 
-.sign-in-form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .sign-in-form h2 {
-    text-align: center;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .form-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  
-  .form-group button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  .form-group button:hover {
-    background-color: #0056b3;
-  }
-  
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.mon{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 5px;
+}
+.mon h2{
+  color: #266696;
+}
+.mon p{
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+.forgot-password {
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+.container{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 10%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgb(252, 249, 249);
+}
+.container input{
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+.input-gr label{
+  color: #266696; 
+  font-weight: 500;
+}
+.input-group label{
+  color: #266696; ;
+  font-weight: 500;
+}
+.input-group{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.input-gr{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.gin button{
+  display: block;
+  width: 90%;
+  padding: 10px;
+  background-color: #266696;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
