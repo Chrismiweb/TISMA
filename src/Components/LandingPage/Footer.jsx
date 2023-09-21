@@ -13,7 +13,7 @@ const Footer = () => {
             <h4>Contact Us</h4>
             <p>info@tisma.site</p>
             <p>(+234) 810 385 6846</p>
-            <p>45B Ibrahim Taiwo Road Ilroin Kwara state</p>
+            <p>45B Ibrahim Taiwo Road Ilroin Kwara state.</p>
         </div>
         <div className='our'>
             <h4>Subscribe to our newletter</h4>
