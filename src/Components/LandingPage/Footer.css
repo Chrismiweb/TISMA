@@ -1,0 +1,151 @@
+.footer{
+    background-color: #A5A6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 90px 50px 90px;
+}
+.overall{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 80px;
+    margin-bottom: 70px;
+    /* align-items: center; */
+}
+.mo{
+    font-size: 30px;
+}
+.easy{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+}
+.easy h1{
+    font-size: 70px;
+}
+.easy p{
+    font-size: 23px;
+    width: 110%;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 40%;
+    color: white;
+}
+.con h4{
+    font-size: 30px;
+}
+.con p{
+    font-size: 23px;
+    width: 60%;
+}
+.our{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.our h4{
+    font-size: 30px;
+    color: white;
+}
+.our input{
+    width: 50%;
+    font-size: 23px;
+    padding: 15px 30px;
+    background-color: #000000B2;
+    border: none;
+    color: #FFFFFF;
+    font: 900;
+    outline: none;
+}
+.our button{
+    font-size: 30px;
+    width: 60%;
+    padding: 15px 30px;
+    background-color: #266696;
+    border: none;
+    outline: none;
+    color: #FFFFFFB2;
+}
+@media screen and (max-width:960px) {
+    .footer{
+        background-color: #A5A6F6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 30px 25px 40px;
+        gap: 40px;
+    }
+    .overall{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        /* padding: 50px; */
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    .mo{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .easy{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .easy h1{
+        font-size: 40px;
+    }
+    .easy p{
+        font-size: 15px;
+        width: 100%;
+    }
+    .con{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 0;
+        color: white;
+    }
+    .con h4{
+        font-size: 20px;
+    }
+    .con p{
+        font-size: 15px;
+        width: 80%;
+    }
+    .our{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .our h4{
+        font-size: 20px;
+        color: white;
+    }
+    .our input{
+        width: 60%;
+        font-size: 18px;
+        padding: 10px 30px;
+        background-color: #000000B2;
+        border: none;
+        color: #FFFFFF;
+        font: 900;
+        outline: none;
+    }
+    .our button{
+        font-size: 15px;
+        width: 100%;
+        padding: 10px 70px;
+        background-color: #266696;
+        border: none;
+        outline: none;
+        color: #FFFFFFB2;
+    }
+}

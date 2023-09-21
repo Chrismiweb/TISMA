@@ -1,0 +1,123 @@
+.about{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+.ti{
+    color: #266696;
+    font-size: 30px;
+}
+.des{
+    color: white;
+    font-size: 33px;
+    width: 75%;
+}
+.ting{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-left: 15%;
+}
+.grad{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+.grad h1{
+    font-size: 50px;
+}
+.grad p{
+    font-size: 20px;
+    width: 65%;
+}
+.grad2{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+.grad2 h1{
+    font-size: 50px;
+}
+.grad2 p{
+    font-size: 20px;
+    width: 50%;
+}
+.grad3{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+.grad3 h1{
+    font-size: 50px;
+}
+.grad3 p{
+    font-size: 20px;
+    width: 50%;
+}
+.grad4{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+.grad4 h1{
+    font-size: 50px;
+}
+.grad4 p{
+    font-size: 20px;
+    width: 52%;
+}
+
+@media screen and (max-width:960px) {
+    .about{
+        gap: 20px;
+    }
+    .ti{
+        font-size: 20px;
+    }
+    .ting{
+        gap: 20px;
+    }
+    .des{
+        font-size:17px;
+        width: 75%;
+    }
+    .ting{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .grad{
+        gap: 10px;
+    }
+    .grad h1{
+        font-size: 20px;
+    }
+    .grad2 h1{
+        font-size: 20px;
+    }
+    .grad3 h1{
+        font-size: 20px;
+    }
+    .grad4 h1{
+        font-size: 20px;
+    }
+    .grad p{
+        font-size: 15px;
+        width: 70%;
+    }
+    .grad2 p{
+        font-size: 15px;
+        width: 70%;
+    }
+    .grad3 p{
+        font-size: 15px;
+        width: 70%;
+    }
+    .grad4 p{
+        font-size: 15px;
+        width: 70%;
+    }
+}
